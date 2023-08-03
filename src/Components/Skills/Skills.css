@@ -1,0 +1,28 @@
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-top: 4rem;
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .skills__container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .skills__container {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 1rem;
+  }
+}

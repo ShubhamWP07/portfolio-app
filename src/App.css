@@ -8,12 +8,12 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
+  /* --hue: 0;
+  --sat: 0%; */
   --title-color: #ccd6f6;
   --title-color-second: #8892b0;
   --title-color-dark: #64ffda;
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color: #64ffda;
   --body-color: #0a192f;
   --container-color: #64ffda;
 

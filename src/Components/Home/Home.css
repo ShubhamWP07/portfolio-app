@@ -40,6 +40,38 @@
   margin-bottom: 1.5rem;
 }
 
+@media screen and (max-width: 992px) {
+  .home__content {
+    display: flex;
+    padding: 0;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .home__social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .home__sub-title {
+    font-size: 0.7rem;
+  }
+
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .home__designation {
+    font-size: 2rem;
+  }
+
+  .home__desc {
+    width: 80%;
+  }
+}
+
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .home__content {

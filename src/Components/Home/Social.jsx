@@ -20,6 +20,14 @@ const Social = () => {
       </a>
 
       <a
+        href="mailto: contactmeshubhamkr@gmail.com"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i class="uil uil-envelope-alt"></i>
+      </a>
+
+      <a
         href="https://github.com/ShubhamWP07"
         className="home__social-icon"
         target="_blank"

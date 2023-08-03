@@ -1,0 +1,21 @@
+.scrollup {
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+  background-color: var(--title-color-dark);
+  opacity: 0.8;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  transform: 0.4s;
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: #0a192f;
+}
+
+/* show */
+.show-scroll {
+  bottom: 3rem;
+}
