@@ -27,7 +27,7 @@ const Services = () => {
         </div>
 
         <div className="service-card">
-          <i class="fa-solid fa-cart-shopping services__icon"></i>
+          <i className="fa-solid fa-cart-shopping services__icon"></i>
           <h2 className="service__title">E-commerce Website</h2>
           <p className="service__desc">
             Creating e-commerce websites using WordPress, and ensuring a
@@ -36,7 +36,7 @@ const Services = () => {
         </div>
 
         <div className="service-card">
-          <i class="fa-solid fa-phone services__icon"></i>
+          <i className="fa-solid fa-phone services__icon"></i>
           <h2 className="service__title">Website Maintenance</h2>
           <p className="service__desc">
             Ensuring peak website performance with reliable maintenance and

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Social from "../Home/Social";
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
             className="home__social-icon"
             target="_blank"
           >
-            <i class="uil uil-instagram"></i>
+            <i className="uil uil-instagram"></i>
           </a>
 
           <a
@@ -20,7 +19,7 @@ const Footer = () => {
             className="home__social-icon"
             target="_blank"
           >
-            <i class="uil uil-linkedin-alt"></i>
+            <i className="uil uil-linkedin-alt"></i>
           </a>
 
           <a
@@ -28,7 +27,7 @@ const Footer = () => {
             className="home__social-icon"
             target="_blank"
           >
-            <i class="uil uil-envelope-alt"></i>
+            <i className="uil uil-envelope-alt"></i>
           </a>
 
           <a
@@ -36,7 +35,7 @@ const Footer = () => {
             className="home__social-icon"
             target="_blank"
           >
-            <i class="uil uil-github-alt"></i>
+            <i className="uil uil-github-alt"></i>
           </a>
         </div>
         <div className="copyright">

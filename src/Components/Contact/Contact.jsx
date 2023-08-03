@@ -26,7 +26,7 @@ const Contact = () => {
         <div className="contact__info">
           <div className="contact__content">
             <div>
-              <i class="uil uil-envelope-alt"></i>
+              <i className="uil uil-envelope-alt"></i>
             </div>
             <div>
               <h3 className="contact__title">Have a question?</h3>
@@ -39,7 +39,7 @@ const Contact = () => {
 
           <div className="contact__content">
             <div>
-              <i class="uil uil-map-marker"></i>
+              <i className="uil uil-map-marker"></i>
             </div>
             <div>
               <h3 className="contact__title">Current Location</h3>
@@ -85,7 +85,7 @@ const Contact = () => {
           <button className="button button--flex">
             Send message
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

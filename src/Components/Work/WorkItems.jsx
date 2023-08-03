@@ -6,10 +6,10 @@ const WorkItems = ({ item }) => {
       <img src={item.image} alt="" className="work__img" />
       <h3 className="work__title">{item.title}</h3>
       <a href={item.demo} target="_blank" className="work__button">
-        Demo <i class="uil uil-arrow-right work__button-icon"></i>
+        Demo <i className="uil uil-arrow-right work__button-icon"></i>
       </a>
       <a href={item.repo} target="_blank" className="work__button">
-        Repo <i class="uil uil-github-alt work__button-icon"></i>
+        Repo <i className="uil uil-github-alt work__button-icon"></i>
       </a>
     </div>
   );
