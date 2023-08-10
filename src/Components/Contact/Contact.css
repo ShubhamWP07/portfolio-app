@@ -74,9 +74,8 @@
   resize: none;
 }
 
-.contact__form-input[type="name email"]:active {
-  background-color: var(--body-color);
-  color: var(--text-color);
+.contact__form-input input {
+  color: #fff;
 }
 
 /* For large devices */

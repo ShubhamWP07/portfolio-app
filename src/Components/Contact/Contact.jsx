@@ -50,7 +50,12 @@ const Contact = () => {
         </div>
 
         {/* contact-form */}
-        <form ref={form} onSubmit={sendEmail} className="contact__form">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="contact__form"
+          autocomplete="off"
+        >
           <div className="contact__form-div ">
             <label className="contact__form-tag">Name</label>
             <input
